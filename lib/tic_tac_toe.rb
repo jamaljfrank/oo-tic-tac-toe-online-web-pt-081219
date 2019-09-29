@@ -99,6 +99,10 @@ end
 
 def winner
   won?
+  if win_combo.include?("X")
+    return "X"
+  else
+    return "O"
 
 end
 end
