@@ -82,7 +82,7 @@ def full?
 end
 
 def draw?
- if full? &&fwon?
+ if full? &&fjhellvbncb
    return true
   
   
