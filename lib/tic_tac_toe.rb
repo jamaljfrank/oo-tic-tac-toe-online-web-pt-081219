@@ -82,9 +82,10 @@ def full?
 end
 
 def draw?
- if full? &&fjhellvbncb
-   gnurn true
-  
+ if !full? && !won
+   return true
+ else return false
+ end
   
   
   
