@@ -97,16 +97,21 @@ def over?
   end
 end  
 
-def winner
-  won?
-  if win_combo.include?("X")
-    return "X"
+def winner 
+  index = []
+  index = won?
+  if index == false
+    return nil
   else
-    return "O"
+    if @board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
+end
 
-end
-end
-end
+
   
 
 
