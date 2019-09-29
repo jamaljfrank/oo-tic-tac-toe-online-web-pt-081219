@@ -82,8 +82,8 @@ def full?
 end
 
 def draw?
- if full? && !won?
-   puts "Draw
+ if full? &&fwon?
+   return true
   
   
   
