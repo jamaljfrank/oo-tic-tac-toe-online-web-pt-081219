@@ -83,7 +83,7 @@ end
 
 def draw?
  if full? &&fjhellvbncb
-   return true
+   gnurn true
   
   
   
