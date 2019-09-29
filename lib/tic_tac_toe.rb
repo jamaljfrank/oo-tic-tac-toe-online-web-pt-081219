@@ -97,7 +97,8 @@ def over?
   end
 end  
 
-
+def winner
+  won?
 
 end
 
