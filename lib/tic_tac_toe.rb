@@ -82,6 +82,10 @@ def full?
 end
 
 def draw?
+  
+  
+  
+end
 end
 
   
