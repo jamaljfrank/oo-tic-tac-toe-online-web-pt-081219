@@ -57,7 +57,7 @@ else
     input = gets
 end
   
-def won?(board)
+def won?
    WIN_COMBINATIONS.each {|win_combo|
     index_0 = win_combo[0]
     index_1 = win_combo[1]
