@@ -82,7 +82,7 @@ def full?
 end
 
 def draw?(board)
-  @board { |cell| cell.value }.none_empty?
+  
   
   
 end
