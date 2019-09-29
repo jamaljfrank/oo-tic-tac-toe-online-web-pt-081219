@@ -81,7 +81,7 @@ def full?
   
 end
 
-def draw?(board)
+def draw?(@board)
  if !full? && !won
    return true
  else 
